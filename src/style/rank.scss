@@ -1,0 +1,140 @@
+#rank {
+    margin: {
+      bottom: 1rem;
+    };
+    .header {
+      position: fixed;
+      width: 100%;
+      z-index: 9999;
+      background: #f7f8f9;
+      color: #000;
+      top: 0;
+      font: {
+        size: 1.1rem;
+        weight: bolder;
+      };
+    }
+    .list-main {
+      margin: {
+        top: 4rem;
+      };
+    }
+    .list {
+      margin: {
+        top: 3rem;
+      }
+    ;
+    }
+    .line {
+      display: flex;
+      text-align: center;
+      margin: {
+        top: 1rem;
+      }
+    ;
+      .numF {
+        color: red !important;
+      }
+      .numS {
+        color: #f18d59 !important;
+      }
+      .numT {
+        color: #f9c362 !important;
+      }
+      .num {
+        flex: 5;
+        position: relative;
+        top: -.4rem;
+        color: #9a9b9c;
+        font: {
+          size: 1.2rem;
+          style: italic;
+        }
+      ;
+      }
+      .lineLeft {
+        flex: 1;
+        position: relative;
+        left: 8rem;
+        border: {
+          top: 1px solid #dedede;
+        }
+      ;
+      }
+      .lineRight {
+        flex: 1;
+        position: relative;
+        right: 8rem;
+        border: {
+          top: 1px solid #dedede;
+        }
+      ;
+      }
+    }
+    .menu {
+      width: 90%;
+      margin: {
+        left: 5%;
+      }
+    ;
+      box-shadow: 1px 1px 10px #dcdcdc;
+      display: flex;
+      .avatars {
+        padding: 1rem 1rem 1rem 1rem;
+      }
+      .info {
+        padding: 1rem 1rem 1rem 1rem;
+        .name {
+          font: {
+            weight: bolder;
+          }
+        ;
+        }
+        .star {
+          margin: {
+            top: .3rem;
+          }
+        ;
+        }
+        .alts {
+          color: #999a9b;
+          margin: {
+            top: .5rem;
+          }
+        ;
+          span {
+            font: {
+              weight: 300;
+            }
+          ;
+          }
+        }
+      }
+    }
+    .pagination {
+        position: relative;
+				text-align: center;
+				margin: {
+					top: 1rem;
+				}
+      }
+      .pagination li{
+        display: inline-block;
+        margin:0 5px;
+      }
+      .pagination li a{
+        padding:.5rem 1rem;
+        display:inline-block;
+        border:1px solid #ddd;
+        background:#fff;
+
+        color:#0E90D2;
+      }
+      .pagination li a:hover{
+        background:#eee;
+      }
+      .pagination li.active a{
+        background:#0E90D2;
+        color:#fff;
+      }
+  }

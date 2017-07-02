@@ -1,0 +1,188 @@
+#movieDetail {
+	.header {
+		background: #3a4652;
+		width: 100%;
+		position: fixed;
+	}
+	.nav {
+		margin: {
+			top: -.1rem;
+		};
+		background: #3a4652;
+		text-align: center;
+		padding: {
+			top: 3rem;
+		};
+		.nav-img {
+			width: 60%;
+			padding: {
+				top: .5rem;
+				bottom: 1rem;
+			}
+		}
+	}
+	.main {
+		background: #f4f7f9;
+		overflow: hidden;
+		padding: {
+			bottom: 2rem;
+		};
+		.main-name {
+			.name{
+				font: {
+					size: 1.5rem;
+				};
+				padding: {
+					top: 1.5rem;
+					left: 1rem;
+				}
+			}
+			.type {
+				margin: {
+					top: .6rem;
+					left: 1rem;
+				};
+				color: #9b9b9b;
+				font: {
+					size: .7rem;
+				}
+			}
+		}
+		.scroe {
+			width: 5rem;
+			height: 5.5rem;
+			background: #fff;
+			text-align: center;
+			float: right;
+			margin: {
+					right: 1.2rem;
+					top: -3rem;
+			};
+			box-shadow: 1px 1px 6px #dcdcdc;
+			.scroe_title {
+					color: #9b9b9b;
+					font: {
+						size: .7rem;
+					};
+					margin: {
+						top: .5rem;
+					}
+			}
+			.scroe_rating {
+					font: {
+						size: 1.5rem;
+					};
+					margin: {
+						top: .2rem;
+					}
+			}
+			.scroe_star {
+				position: relative;
+				left: 1.2rem;
+			}
+			.scroe_count {
+					font: {
+						size: .7rem;
+					};
+					color: #9b9b9b;
+			}
+			.scroe_n {
+				position: relative;
+				top: -.3rem;
+				font: {
+					size: .7rem;
+					weight:300;
+				}
+				color: #9b9b9b;
+			}
+		}
+	}
+	.review {
+		background: #f4f7f9;
+		display: flex;
+		text-align: center;
+		div {
+			flex: 1;
+			button {
+				width: 70%;
+				border: 1px solid #ffb13e;
+				height: 2rem;
+				color: #ffb13e;
+				background: #f4f7f9;
+				border: {
+					radius: .3rem;
+				}
+			}
+		}
+	}
+	.desc {
+		background: #f4f7f9;
+		padding: {
+			top: 1rem;
+		};
+		.title {
+			color: #9b9b9b;
+			font: {
+				size: .8rem;
+				weight: 300;
+			};
+			margin: {
+				left: 2%;
+			}
+		}
+		.content {
+			width: 96%;
+			text-align: justify;;
+			font: {
+				size: .9rem;
+				weight: 300;
+			}
+			margin: {
+				top: .5rem;
+				left: 2%;
+			}
+		}
+	}
+	.director {
+		background: #f4f7f9;
+		padding: {
+			bottom: 2rem;
+		};
+		.title {
+			padding: {
+				top: .5rem;
+			};
+			color: #9b9b9b;
+			font: {
+				size: .8rem;
+				weight: 300;
+			};
+			margin: {
+				left: 2%;
+			}
+		}
+		.worker {
+			width: 96%;
+			margin: {
+				left: 2%;
+				top: .5rem;
+			};
+			text-align: center;
+			display: flex;
+			overflow-x: scroll;
+			div {
+				flex: 1;
+			}
+			.name {
+				color: #777;
+				font: {
+					weight: 300;
+					size: .8rem;
+				}
+			}
+		}
+		.worker::-webkit-scrollbar {
+        display: none
+      }
+	}
+}

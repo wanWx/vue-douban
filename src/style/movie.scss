@@ -1,0 +1,126 @@
+$base-color: #53bf55;
+.tab-list {
+	background: #fff;
+	margin: {
+		top: .5rem;
+	}
+	.tab-list-title {
+		font: {
+			size: 1.1rem;
+		}
+		padding: {
+			top: 1.5rem;
+			left: .5rem;
+		}
+	}
+	.more {
+		float: right;
+		position: relative;
+		top: -1rem;
+		right: 1rem;
+		color: $base-color;
+		font: {
+			weight: 300;
+		}
+	}
+	.movieList {
+		display: -webkit-box;
+		overflow: auto;
+		margin: {
+			top: 1rem;
+		}
+		div {
+			margin: {
+				left: .2rem;
+			}
+			text-align: center;
+			img {
+
+			}
+			.title {
+				width: 4rem;
+				text-overflow: ellipsis;
+				overflow: hidden;
+				white-space: nowrap;
+				position: relative;
+				left: -.2rem;
+				margin: {
+					left: .3rem;
+				}
+				font: {
+					size: .6rem;
+				}
+			}
+			.star {
+			}
+			.not_show {
+				font: {
+					size: .6rem;
+					weight: 300;
+				};
+				color: #9b9b9b;
+				position: relative;
+				top: .3rem;
+				right: .3rem;
+				margin: {
+					bottom: 1rem;
+				}
+			}
+		}
+	}
+	.movieList::-webkit-scrollbar {
+   	display: none;
+  }
+  .rankList {
+  	display: -webkit-box;
+  	overflow-x: scroll;
+  	margin: {
+  		top: 1rem;
+  	}
+  	.topOne {
+  		margin: {
+  			left: .2rem;
+  		};
+			width: 7.5rem;
+			height: 7.5rem;
+			color: #fff;
+			border:{
+				radius: .3rem;
+			};
+			text-align: center;
+			background: linear-gradient(#dca426, #f6ebcc);
+			.topOneTitle_f {
+				font: {
+					size: 1rem;
+				};
+				padding: {
+					top: 1rem;
+				}
+			}
+			.topOneTitle_s {
+				font: {
+					size: .7rem;
+					weight: 700;
+				};
+				padding: {
+					top: 1rem;
+				}
+			}
+  	}
+  	.topTwo {
+  		@extend .topOne;
+  		background: linear-gradient(#4dc064, #d1f0dc);
+  	}
+  	.topThree {
+  		@extend .topOne;
+  		background: linear-gradient(#9e65c3, #e6dbf1);
+  	}
+  	.topFour {
+  		@extend .topOne;
+  		background: linear-gradient(#df6d8a, #f7dbe2);
+  	}
+  }
+  .rankList::-webkit-scrollbar {
+  	display: none;
+  }
+}
